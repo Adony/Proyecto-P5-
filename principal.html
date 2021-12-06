@@ -1,0 +1,102 @@
+<html xmlns="http://www.w3.org/1999/html">
+	<head>
+		<title>Mi primera Web</title>
+        <meta charset="iso-8859-1">
+        <meta name="author" content="Alejandro Rodriguez Perez">
+        <meta name="description" content="Laboratorio 2">
+		
+		<!-- Vinculación del fichero CSS aquí -->
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	</head>
+
+	<body>
+        <header id="banner">
+            <aside id="logo">
+                <img class="border-circle" src="Medias/intevep.png">
+            </aside>
+            <aside id="titulo">
+                <h1>Gerencia de Recursos Humanos </bootstrap.cssh1>
+                <h6>Instituto Tecnol&oacute;gico Venezolano del Petr&oacute;leo</h6>
+            </aside>
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <a href="http://intranet2.uci.cu/" target="_blank">Intranet</a> |
+            <a href="http://correo.uci.cu/" target="_blank">Correo</a> |
+            <a href="http://internos.uci.cu/" target="_blank">InterNos</a> |
+            <a href="http://sch.pdvsa.com" target="_blank">Pagina Pincipal PDVSA</a> 
+        </nav>
+
+        <aside id="cuerpo">
+            <header id="formTitle">
+                <h3>Planilla de Solicitud de Cambio de plaza</h3>
+            </header>
+            <form name="form1 " class="form-inline" method="get" action="">
+                <fieldset class="input-group">
+                    <label class="form-label">Nombres y Apellidos:</label><br>
+                    <input name="nombre" type="text" id="nombre">
+                </fieldset>
+                <fieldset class="input-group">
+                    <label class="form-label">Correo electr&oacute;nico:</label><br>
+                    <input name="correo" type="text" id="correo">
+                </fieldset>
+                <fieldset class="input-group">
+                    <label class="form-label">Especialidad:</label><br>
+                    <input name="espe1" type="text" id="espe1">
+                </fieldset>
+                <fieldset class="input-group">
+                    <label class="form-label">Especialidad que solicita:</label><br>
+                    <input name="espe2" type="text" id="espe2">
+                </fieldset>
+                <fieldset class="input-group">
+                    <label class="form-label">Departamento/Divisi&oacute;n:</label><br>
+                    <select name="dep1" id="dep1">
+                        <option>Seleccione</option>
+                        <option>Superintendencia Econ&oacute;mica</option>
+                        <option>Departamento de Inform&aacute;tica</option>
+                        <option>Intevep</option>
+                    </select>
+                </fieldset>
+                <fieldset class="input-group">
+                    <label class="form-label">Departamento/Divisi&oacute;n de destino:</label><br>
+                    <select name="dep1" id="dep1">
+                        <option>Seleccione</option>
+                        <option>Superintendencia Econ&oacute;mica</option>
+                        <option>Departamento de Inform&aacute;tica</option>
+                        <option>Intevep</option>
+                    </select>
+                </fieldset>
+                <fieldset class="input-group">
+                    <label class="form-label">Cargo actual:</label><br>
+                    <input name="cargo" type="text" id="cargo">
+                </fieldset>
+                <fieldset class="input-group">
+                    <label class="form-label">Fecha de la solicitud:</label><br>
+                    <input name="fecha" type="text" id="fecha">
+                </fieldset >
+                <fieldset class="input-group">
+                    <label class="form-label">Motivo del cambio</label><br>
+                    <select name="motivo" id="motivo">
+                        <option>Seleccione</option>
+                        <option>Mejora salarial</option>
+                        <option>Idoneidad</option>
+                        <option>Promoci&oacute;n</option>
+                    </select>
+                </fieldset>
+                <fieldset class="input-group">
+                    <input type="submit" name="Submit" value="Confirmar y enviar">
+                </fieldset>
+            </form>
+        </aside>
+        <aside>
+            <img class="Imagen" src="Medias/foto.jpg">
+            <img class="Imagen" src="Medias/foto 1.jpg">
+            <img class="Imagen" src="Medias/3.jpg">
+            <img class="Imagen" src="Medias/5.jpg">
+        </aside>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
